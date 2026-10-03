@@ -87,8 +87,11 @@ fun main()
             else{
                 val target=tasks.find { it.id == changeTaskID }
                 if(target!=null){
-                    target.done=true
+                    target.done=!target.done
                     println("任务状态已更改")
+                }
+                else{
+                    println("未找到该任务")
                 }
                 hyphenSplitFun()
             }
