@@ -1,0 +1,23 @@
+# ===== 本地工具链 / 环境（体积巨大，且不允许再分发，不要上传）=====
+/android-sdk/
+/jdk-21/
+/kotlinc/
+/gradle/
+
+# ===== 编译产物（可随时重新生成）=====
+/index.jar
+KTProject/build/
+KTProject/out/
+KTProject/.gradle/
+KTProject/.kotlin/
+
+# ===== IDE =====
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
